@@ -1,0 +1,19 @@
+{
+  "name": "sequelize-1-to-1",
+  "version": "0.0.1",
+  "description": "Learning about create association in sequelize",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "migrate": "node src/tools/migration.js",
+    "seed": "node src/tools/seed.js",
+    "drop": "node src/tools/drop.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^6.17.0",
+    "mysql2": "^2.3.3"
+  }
+}
